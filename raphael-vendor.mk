@@ -104,15 +104,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/lib/vendor.qti.ims.rcsconfig@1.0.so:system/lib/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib/vendor.qti.latency@2.0.so:system/lib/vendor.qti.latency@2.0.so \
-    vendor/xiaomi/raphael/proprietary/lib/vendor.qti.voiceprint@1.0.so:system/lib/vendor.qti.voiceprint@1.0.so \
-    vendor/xiaomi/raphael/proprietary/lib/vendor.xiaomi.hardware.citsensorservice@1.0.so:system/lib/vendor.xiaomi.hardware.citsensorservice@1.0.so \
-    vendor/xiaomi/raphael/proprietary/lib/vendor.xiaomi.hardware.citsensorservice@1.1.so:system/lib/vendor.xiaomi.hardware.citsensorservice@1.1.so \
-    vendor/xiaomi/raphael/proprietary/lib/vendor.xiaomi.hardware.displayfeature@1.0.so:system/lib/vendor.xiaomi.hardware.displayfeature@1.0.so \
-    vendor/xiaomi/raphael/proprietary/lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so:system/lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so \
-    vendor/xiaomi/raphael/proprietary/lib/vendor.xiaomi.hardware.misys@1.0.so:system/lib/vendor.xiaomi.hardware.misys@1.0.so \
-    vendor/xiaomi/raphael/proprietary/lib/vendor.xiaomi.hardware.misys@2.0.so:system/lib/vendor.xiaomi.hardware.misys@2.0.so \
-    vendor/xiaomi/raphael/proprietary/lib/vendor.xiaomi.hardware.motor@1.0.so:system/lib/vendor.xiaomi.hardware.motor@1.0.so \
-    vendor/xiaomi/raphael/proprietary/lib/vendor.xiaomi.hardware.touchfeature@1.0.so:system/lib/vendor.xiaomi.hardware.touchfeature@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib64/com.qualcomm.qti.imscmservice@2.0.so:system/lib64/com.qualcomm.qti.imscmservice@2.0.so \
@@ -160,13 +151,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/lib64/vendor.qti.ims.rcsconfig@1.0.so:system/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib64/vendor.qti.latency@2.0.so:system/lib64/vendor.qti.latency@2.0.so \
-    vendor/xiaomi/raphael/proprietary/lib64/vendor.qti.voiceprint@1.0.so:system/lib64/vendor.qti.voiceprint@1.0.so \
-    vendor/xiaomi/raphael/proprietary/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so:system/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so \
-    vendor/xiaomi/raphael/proprietary/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so:system/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so \
     vendor/xiaomi/raphael/proprietary/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:system/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so:system/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so \
-    vendor/xiaomi/raphael/proprietary/lib64/vendor.xiaomi.hardware.misys@1.0.so:system/lib64/vendor.xiaomi.hardware.misys@1.0.so \
-    vendor/xiaomi/raphael/proprietary/lib64/vendor.xiaomi.hardware.misys@2.0.so:system/lib64/vendor.xiaomi.hardware.misys@2.0.so \
     vendor/xiaomi/raphael/proprietary/lib64/vendor.xiaomi.hardware.motor@1.0.so:system/lib64/vendor.xiaomi.hardware.motor@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so:system/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so
 
