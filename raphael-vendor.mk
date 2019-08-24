@@ -42,38 +42,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/xiaomi/raphael/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/xiaomi/raphael/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/xiaomi/raphael/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/xiaomi/raphael/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/xiaomi/raphael/proprietary/lib/com.qualcomm.qti.imscmservice@2.0.so:system/lib/com.qualcomm.qti.imscmservice@2.0.so \
-    vendor/xiaomi/raphael/proprietary/lib/com.qualcomm.qti.imscmservice@2.1.so:system/lib/com.qualcomm.qti.imscmservice@2.1.so \
-    vendor/xiaomi/raphael/proprietary/lib/com.qualcomm.qti.uceservice@2.0.so:system/lib/com.qualcomm.qti.uceservice@2.0.so \
-    vendor/xiaomi/raphael/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
-    vendor/xiaomi/raphael/proprietary/lib/com.quicinc.cne.server@1.0.so:system/lib/com.quicinc.cne.server@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
     vendor/xiaomi/raphael/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
     vendor/xiaomi/raphael/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
-    vendor/xiaomi/raphael/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
-    vendor/xiaomi/raphael/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so \
-    vendor/xiaomi/raphael/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
-    vendor/xiaomi/raphael/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
     vendor/xiaomi/raphael/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/xiaomi/raphael/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
-    vendor/xiaomi/raphael/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/xiaomi/raphael/proprietary/lib/libdisplayconfig.so:system/lib/libdisplayconfig.so \
-    vendor/xiaomi/raphael/proprietary/lib/libdpmctmgr.so:system/lib/libdpmctmgr.so \
-    vendor/xiaomi/raphael/proprietary/lib/libdpmfdmgr.so:system/lib/libdpmfdmgr.so \
-    vendor/xiaomi/raphael/proprietary/lib/libdpmframework.so:system/lib/libdpmframework.so \
-    vendor/xiaomi/raphael/proprietary/lib/libdpmtcm.so:system/lib/libdpmtcm.so \
-    vendor/xiaomi/raphael/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
-    vendor/xiaomi/raphael/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/xiaomi/raphael/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/xiaomi/raphael/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/xiaomi/raphael/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/xiaomi/raphael/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
     vendor/xiaomi/raphael/proprietary/lib/libqdMetaData.system.so:system/lib/libqdMetaData.system.so \
-    vendor/xiaomi/raphael/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
-    vendor/xiaomi/raphael/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
-    vendor/xiaomi/raphael/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/xiaomi/raphael/proprietary/lib/libwfdaac.so:system/lib/libwfdaac.so \
     vendor/xiaomi/raphael/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
     vendor/xiaomi/raphael/proprietary/lib/libwfdclient.so:system/lib/libwfdclient.so \
@@ -94,18 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
     vendor/xiaomi/raphael/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
     vendor/xiaomi/raphael/proprietary/lib/soundfx/libvolumelistener.so:system/lib/soundfx/libvolumelistener.so \
-    vendor/xiaomi/raphael/proprietary/lib/vendor.qti.hardware.data.latency@1.0.so:system/lib/vendor.qti.hardware.data.latency@1.0.so \
-    vendor/xiaomi/raphael/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
-    vendor/xiaomi/raphael/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
-    vendor/xiaomi/raphael/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
-    vendor/xiaomi/raphael/proprietary/lib/vendor.qti.hardware.radio.ims@1.0.so:system/lib/vendor.qti.hardware.radio.ims@1.0.so \
-    vendor/xiaomi/raphael/proprietary/lib/vendor.qti.hardware.radio.ims@1.1.so:system/lib/vendor.qti.hardware.radio.ims@1.1.so \
-    vendor/xiaomi/raphael/proprietary/lib/vendor.qti.hardware.radio.ims@1.2.so:system/lib/vendor.qti.hardware.radio.ims@1.2.so \
-    vendor/xiaomi/raphael/proprietary/lib/vendor.qti.hardware.radio.ims@1.3.so:system/lib/vendor.qti.hardware.radio.ims@1.3.so \
-    vendor/xiaomi/raphael/proprietary/lib/vendor.qti.ims.callinfo@1.0.so:system/lib/vendor.qti.ims.callinfo@1.0.so \
-    vendor/xiaomi/raphael/proprietary/lib/vendor.qti.ims.rcsconfig@1.0.so:system/lib/vendor.qti.ims.rcsconfig@1.0.so \
-    vendor/xiaomi/raphael/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
-    vendor/xiaomi/raphael/proprietary/lib/vendor.qti.latency@2.0.so:system/lib/vendor.qti.latency@2.0.so \
     vendor/xiaomi/raphael/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib64/com.qualcomm.qti.imscmservice@2.0.so:system/lib64/com.qualcomm.qti.imscmservice@2.0.so \
@@ -119,12 +86,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/xiaomi/raphael/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/xiaomi/raphael/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
+    vendor/xiaomi/raphael/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
+    vendor/xiaomi/raphael/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/xiaomi/raphael/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
     vendor/xiaomi/raphael/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/xiaomi/raphael/proprietary/lib64/libdisplayconfig.so:system/lib64/libdisplayconfig.so \
     vendor/xiaomi/raphael/proprietary/lib64/libdisplayfeature.so:system/lib64/libdisplayfeature.so \
     vendor/xiaomi/raphael/proprietary/lib64/libdisplayfeatureservice.so:system/lib64/libdisplayfeatureservice.so \
-    vendor/xiaomi/raphael/proprietary/lib64/libdisplayservicehidl.so:system/lib64/libdisplayservicehidl.so \
     vendor/xiaomi/raphael/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
     vendor/xiaomi/raphael/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
     vendor/xiaomi/raphael/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
@@ -158,6 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/lib64/vendor.qti.ims.rcsconfig@1.0.so:system/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib64/vendor.qti.latency@2.0.so:system/lib64/vendor.qti.latency@2.0.so \
+    vendor/xiaomi/raphael/proprietary/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so:system/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so \
     vendor/xiaomi/raphael/proprietary/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:system/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so:system/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib64/vendor.xiaomi.hardware.motor@1.0.so:system/lib64/vendor.xiaomi.hardware.motor@1.0.so \
@@ -167,7 +136,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \
     QtiTelephonyService \
-    SoterService \
     uceShimService \
     CNEService \
     WfdService \
