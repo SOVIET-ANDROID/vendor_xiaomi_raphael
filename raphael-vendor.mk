@@ -71,6 +71,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/xiaomi/raphael/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
     vendor/xiaomi/raphael/proprietary/lib/libqdMetaData.system.so:system/lib/libqdMetaData.system.so \
+    vendor/xiaomi/raphael/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
+    vendor/xiaomi/raphael/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/xiaomi/raphael/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/xiaomi/raphael/proprietary/lib/libwfdaac.so:system/lib/libwfdaac.so \
     vendor/xiaomi/raphael/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
@@ -131,6 +133,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
     vendor/xiaomi/raphael/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
     vendor/xiaomi/raphael/proprietary/lib64/libqdMetaData.system.so:system/lib64/libqdMetaData.system.so \
+    vendor/xiaomi/raphael/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
+    vendor/xiaomi/raphael/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/xiaomi/raphael/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/xiaomi/raphael/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
     vendor/xiaomi/raphael/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
@@ -167,5 +171,7 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
+    QPerformance \
+    UxPerformance \
     WfdCommon \
     chargeonlymode
