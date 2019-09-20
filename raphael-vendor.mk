@@ -42,12 +42,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/xiaomi/raphael/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/xiaomi/raphael/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/xiaomi/raphael/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
     vendor/xiaomi/raphael/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
-    vendor/xiaomi/raphael/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
     vendor/xiaomi/raphael/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/xiaomi/raphael/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
     vendor/xiaomi/raphael/proprietary/lib/libdisplayconfig.so:system/lib/libdisplayconfig.so \
+    vendor/xiaomi/raphael/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
     vendor/xiaomi/raphael/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/xiaomi/raphael/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/xiaomi/raphael/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
@@ -72,7 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
     vendor/xiaomi/raphael/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
     vendor/xiaomi/raphael/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
-    vendor/xiaomi/raphael/proprietary/lib/soundfx/libvolumelistener.so:system/lib/soundfx/libvolumelistener.so \
     vendor/xiaomi/raphael/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib64/com.qualcomm.qti.imscmservice@2.0.so:system/lib64/com.qualcomm.qti.imscmservice@2.0.so \
@@ -81,14 +81,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/lib64/com.quicinc.cne.server@1.0.so:system/lib64/com.quicinc.cne.server@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib64/extractors/libmmparser.so:system/lib64/extractors/libmmparser.so \
     vendor/xiaomi/raphael/proprietary/lib64/fm_helium.so:system/lib64/fm_helium.so \
-    vendor/xiaomi/raphael/proprietary/lib64/libfm-hci.so:system/lib64/libfm-hci.so \
     vendor/xiaomi/raphael/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/xiaomi/raphael/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/xiaomi/raphael/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/xiaomi/raphael/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
+    vendor/xiaomi/raphael/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
     vendor/xiaomi/raphael/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/xiaomi/raphael/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
-    vendor/xiaomi/raphael/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
     vendor/xiaomi/raphael/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/xiaomi/raphael/proprietary/lib64/libdisplayconfig.so:system/lib64/libdisplayconfig.so \
     vendor/xiaomi/raphael/proprietary/lib64/libdisplayfeature.so:system/lib64/libdisplayfeature.so \
@@ -97,6 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
     vendor/xiaomi/raphael/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
     vendor/xiaomi/raphael/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so \
+    vendor/xiaomi/raphael/proprietary/lib64/libfm-hci.so:system/lib64/libfm-hci.so \
     vendor/xiaomi/raphael/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/xiaomi/raphael/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/xiaomi/raphael/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
@@ -110,7 +110,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
     vendor/xiaomi/raphael/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
     vendor/xiaomi/raphael/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
-    vendor/xiaomi/raphael/proprietary/lib64/soundfx/libvolumelistener.so:system/lib64/soundfx/libvolumelistener.so \
     vendor/xiaomi/raphael/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib64/vendor.display.color@1.1.so:system/lib64/vendor.display.color@1.1.so \
     vendor/xiaomi/raphael/proprietary/lib64/vendor.display.color@1.2.so:system/lib64/vendor.display.color@1.2.so \
@@ -130,8 +129,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:system/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so:system/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so \
     vendor/xiaomi/raphael/proprietary/lib64/vendor.xiaomi.hardware.motor@1.0.so:system/lib64/vendor.xiaomi.hardware.motor@1.0.so \
-    vendor/xiaomi/raphael/proprietary/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so:system/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so
-
+    vendor/xiaomi/raphael/proprietary/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so:system/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so \
+    vendor/xiaomi/raphael/proprietary/lib/soundfx/libvolumelistener.so:system/lib/soundfx/libvolumelistener.so \
+    vendor/xiaomi/raphael/proprietary/lib64/soundfx/libvolumelistener.so:system/lib64/soundfx/libvolumelistener.so
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \
