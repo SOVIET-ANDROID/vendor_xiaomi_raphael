@@ -65,6 +65,16 @@ android_app_import {
 }
 
 android_app_import {
+	name: "workloadclassifier",
+	owner: "xiaomi",
+	apk: "proprietary/app/workloadclassifier/workloadclassifier.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
 	name: "WfdService",
 	owner: "xiaomi",
 	apk: "proprietary/priv-app/WfdService/WfdService.apk",
@@ -210,6 +220,18 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
+}
+
+dex_import {
+	name: "QPerformance",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/QPerformance.jar"],
+}
+
+dex_import {
+	name: "UxPerformance",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/UxPerformance.jar"],
 }
 
 dex_import {
