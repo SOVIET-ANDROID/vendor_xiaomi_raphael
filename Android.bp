@@ -20,6 +20,26 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+	name: "libMpeg4SwEncoder",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libMpeg4SwEncoder.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libMpeg4SwEncoder.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libplatformconfig",
 	owner: "xiaomi",
 	strip: {
@@ -34,6 +54,24 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libthermalclient",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libthermalclient.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -50,6 +88,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
+	check_elf_files: false,
 	prefer: true,
 	product_specific: true,
 }
@@ -216,5 +255,12 @@ dex_import {
 	name: "WfdCommon",
 	owner: "xiaomi",
 	jars: ["proprietary/framework/WfdCommon.jar"],
+}
+
+dex_import {
+	name: "vendor.qti.hardware.capabilityconfigstore-V1.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/product/framework/vendor.qti.hardware.capabilityconfigstore-V1.0-java.jar"],
+	product_specific: true,
 }
 
